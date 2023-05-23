@@ -1,0 +1,21 @@
+.landing2container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#f3f3f3 ;
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.landing2container .landing2container-txt {
+    display: flex;
+    flex-direction: column;
+}
+.landing2container .landing2container-txt h1 {
+    font-weight: bold;
+    font-size: 45px;
+}
+.landing2container .landing2container-txt p{
+    letter-spacing: 1px;
+}

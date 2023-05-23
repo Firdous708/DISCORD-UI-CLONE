@@ -1,0 +1,22 @@
+.landing3container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#ffffff;
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.landing3container .landing3container-txt {
+    display: flex;
+    flex-direction: column;
+}
+.landing3container .landing3container-txt h1 {
+    font-weight: bold;
+    font-size: 45px;
+}
+.landing3container .landing3container-txt p{
+    letter-spacing: 1px;
+    font-size: 18px;
+}

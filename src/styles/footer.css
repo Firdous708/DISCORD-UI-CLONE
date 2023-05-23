@@ -1,0 +1,133 @@
+.footercontainer {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #202225;
+}
+.footertop {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 20px;
+    column-gap: 100px;
+}
+.footerbottom {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footerbottom #signup { 
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #5865f2;
+}
+.footertop .footertop1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.footertop .footertop1 .country-dropdown select {
+    height: 50px;
+    width: 150px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+.footertop .footertop1 .country-dropdown option {
+    background-color: white;
+    color: black;
+}
+.footertop .footertop1 .social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    transform: translateX(15px);
+}
+.footertop .footertop2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    align-items: top;
+}
+.footertop .footertop2 li {
+    list-style-type: none;
+}
+ .policies {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 10px;
+    width: 200px;
+}
+.product {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 10px;
+    width: 150px;
+}
+.company {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 10px;
+    width: 200px;
+}
+.resources {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 10px;
+    width: 200px;
+}
+.product, .company, .resources, .policies  p{
+    color: #5865f2;
+}
+
+a:hover {
+    text-decoration: underline;
+    border-bottom: 1px solid white;
+    
+  }
+.resources a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.company a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.product a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.policies a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+@media all and (max-width: 768px) {
+    /* Styles for mobile devices */
+    .footertop {
+        display: flex;
+        flex-direction: column;
+    }
+  }
