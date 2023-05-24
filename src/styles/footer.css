@@ -40,9 +40,6 @@
 .footertop .footertop1 .country-dropdown select {
     height: 50px;
     width: 150px;
-    background: none;
-    border: 2px solid white;
-    color: white;
 }
 .footertop .footertop1 .country-dropdown option {
     background-color: white;
@@ -100,34 +97,26 @@
     color: #5865f2;
 }
 
-a:hover {
+.footercontainer #desktopfooterA:hover {
     text-decoration: underline;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
     
   }
-.resources a{
+  .footercontainer .resources #desktopfooterA{
     text-decoration: none;
     color: #ffffff;
 
 }
-.company a{
+.footercontainer .company #desktopfooterA{
     text-decoration: none;
     color: #ffffff;
 }
-.product a{
+.footercontainer .product #desktopfooterA{
     text-decoration: none;
     color: #ffffff;
 }
-.policies a{
+ .footercontainer .policies #desktopfooterA{
     text-decoration: none;
     color: #ffffff;
 }
 
-
-@media all and (max-width: 768px) {
-    /* Styles for mobile devices */
-    .footertop {
-        display: flex;
-        flex-direction: column;
-    }
-  }

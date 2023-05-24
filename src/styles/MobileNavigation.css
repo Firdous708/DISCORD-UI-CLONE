@@ -1,0 +1,99 @@
+body {
+    overflow-x: hidden;
+}
+
+.mobilenav {
+    height: 40px;
+    padding: 20px;
+    background-color: #404eed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftmenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+}
+.leftmenu #loginbutton {
+    height: 37px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.leftmenu #menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: grey;
+    width: 310px;
+    height: 430px;
+    border-radius: 20px 0;
+    float: right;
+   
+    z-index: 1;
+    transform: translateX(350px);
+    transition: all .3s ease-out;
+}
+.sidebar-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: grey;
+    width: 310px;
+    height: 500px;
+    border-radius: 20px 0;
+    float: right;
+    top: 0;
+    
+    transition: all .3s ease-in;
+    z-index: 1;
+}
+.sidebar-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+#sidebarA{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#sidebarA:hover {
+    text-decoration: underline;
+}
+
+
+
+  
+  
+  
+  
+  
+  
+
+

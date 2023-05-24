@@ -22,12 +22,12 @@ export default function Landing() {
         <img src={Discordlogo} />
 
         <div className='navigation-items'>
-            <a href='#'>Download</a>
-            <a href='#'>Nitro</a>
-            <a href='#'>Safety</a>
-            <a href='#'>Support</a>
-            <a href='#'>Blog</a>
-            <a href='#'>Careers</a>
+            <a href='#' className='navigation-items-a'>Download</a>
+            <a href='#' className='navigation-items-a'>Nitro</a>
+            <a href='#' className='navigation-items-a'>Safety</a>
+            <a href='#' className='navigation-items-a'>Support</a>
+            <a href='#' className='navigation-items-a'>Blog</a>
+            <a href='#' className='navigation-items-a'>Careers</a>
         </div>
         <button id='login'>Login</button>
         

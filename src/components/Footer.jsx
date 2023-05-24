@@ -52,45 +52,45 @@ export default function Footer() {
           <div className='product'>
             <p>Product</p>
             
-              <a href="#">Download</a>
-              <a href="#">Nitro</a>
-              <a href="#">Status</a>
+              <a href="#" id='desktopfooterA'>Download</a>
+              <a href="#" id='desktopfooterA'>Nitro</a>
+              <a href="#" id='desktopfooterA'>Status</a>
             
           </div>
           <div className='company'>
             <p>Company</p>
             
-              <a href="#">About</a>
-              <a href="#">Jobs</a>
-              <a href="#">Brand</a>
-              <a href="#">Newsroom</a>
+              <a href="#"id='desktopfooterA'>About</a>
+              <a href="#"id='desktopfooterA'>Jobs</a>
+              <a href="#"id='desktopfooterA'>Brand</a>
+              <a href="#"id='desktopfooterA'>Newsroom</a>
             
           </div>
           <div className='resources'>
             <p>Resources</p>
             
-              <a href="#">College</a>
-              <a href="#">Support</a>
-              <a href="#">Safety</a>
-              <a href="#">Blog</a>
-              <a href="#">Feedback</a>
-              <a href="#">Build</a>
-              <a href="#">StreamKit</a>
-              <a href="#">Creators</a>
-              <a href="#">Community</a>
-              <a href="#">Official 3rd Party Merch</a>
+              <a href="#"id='desktopfooterA'>College</a>
+              <a href="#"id='desktopfooterA'>Support</a>
+              <a href="#"id='desktopfooterA'>Safety</a>
+              <a href="#"id='desktopfooterA'>Blog</a>
+              <a href="#"id='desktopfooterA'>Feedback</a>
+              <a href="#"id='desktopfooterA'>Build</a>
+              <a href="#"id='desktopfooterA'>StreamKit</a>
+              <a href="#"id='desktopfooterA'>Creators</a>
+              <a href="#"id='desktopfooterA'>Community</a>
+              <a href="#"id='desktopfooterA'>Official 3rd Party Merch</a>
             
           </div>
           <div className='policies'>
             <p>Policies</p>
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-            <a href="#">Cookie Settings</a>
-            <a href="#">Guidelines</a>
-            <a href="#">Acknowledgements</a>
-            <a href="#">Liscenes</a>
-            <a href="#">Moderation</a>
-            <a href="#">Company Information</a>
+            <a href="#"id='desktopfooterA'>Terms</a>
+            <a href="#"id='desktopfooterA'>Privacy</a>
+            <a href="#"id='desktopfooterA'>Cookie Settings</a>
+            <a href="#"id='desktopfooterA'>Guidelines</a>
+            <a href="#"id='desktopfooterA'>Acknowledgements</a>
+            <a href="#"id='desktopfooterA'>Liscenes</a>
+            <a href="#"id='desktopfooterA'>Moderation</a>
+            <a href="#"id='desktopfooterA'>Company Information</a>
           </div>
         </div>
       </div>

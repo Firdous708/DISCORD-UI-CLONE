@@ -19,12 +19,16 @@ body {
     justify-content: space-evenly;
     column-gap: 40px;
 }
-.navigation-items a{
+.navigation-items-a{
     text-decoration: none;
-    color: #ffffff;
-    font-size: 14px;
+    color: white;
+    font-size: 15px;
     font-weight: bold;
 }
+.navigation-items-a:hover {
+    text-decoration: underline;
+}
+
 .navigation #login {
     height: 40px;
     width: 80px;
@@ -51,7 +55,6 @@ body {
     font-weight: normal;
     transform: translateY(-35px)
 }
-
 
 .landing-buttons {
     display: flex;
