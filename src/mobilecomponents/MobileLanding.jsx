@@ -167,19 +167,19 @@ export default function MobileLanding() {
                 flexDirection: 'column',
             }}>
                 <p>Product</p>
-                <a href="#" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Download</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Nitro</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Status</a>
+                <a href="#" id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Download</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Nitro</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Status</a>
             </div>
             <div id='ftc2Company' style={{
                 display: 'flex',
                 flexDirection: 'column',
             }}>
                 <p>Company</p>
-                <a href="" style={{marginTop: '10px', color: '#ffffff', fontWeight: 'normal', fontSize: '15px',}}>About</a>
-                <a href="" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Jobs</a>
-                <a href="" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Brand</a>
-                <a href="" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Newsroom</a>
+                <a href="" id='mobileLandingatags' style={{marginTop: '10px', color: '#ffffff', fontWeight: 'normal', fontSize: '15px',}}>About</a>
+                <a href="" id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Jobs</a>
+                <a href="" id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Brand</a>
+                <a href="" id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Newsroom</a>
             </div>
         </div>
         <div id="ftc3" style={{
@@ -195,30 +195,30 @@ export default function MobileLanding() {
                 flexDirection: 'column',
             }}>
                 <p>Resources</p>
-                <a href="#" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>College</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Support</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Safety</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Blog</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Feedback</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Build</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>StreamKit</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Creators</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Community</a>
-                <a href="#"style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Official</a>
+                <a href="#" id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>College</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Support</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Safety</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Blog</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Feedback</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Build</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>StreamKit</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Creators</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Community</a>
+                <a href="#" id='mobileLandingatags'style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Official</a>
             </div>
             <div id='ftc2Company' style={{
                 display: 'flex',
                 flexDirection: 'column',
             }}>
                 <p>Policies</p>
-                <a href="" style={{marginTop: '10px', color: '#ffffff', fontWeight: 'normal', fontSize: '15px',}}>Terms</a>
-                <a href="" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Privacy</a>
-                <a href="" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Cookie Settings</a>
-                <a href="" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Guidelines</a>
-                <a href="" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Acknowledgements</a>
-                <a href="" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Liscenses</a>
-                <a href="" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Moderation</a>
-                <a href="" style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Company Information</a>
+                <a href=""  id='mobileLandingatags' style={{marginTop: '10px', color: '#ffffff', fontWeight: 'normal', fontSize: '15px',}}>Terms</a>
+                <a href=""  id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Privacy</a>
+                <a href=""  id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Cookie Settings</a>
+                <a href=""  id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Guidelines</a>
+                <a href=""  id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Acknowledgements</a>
+                <a href=""  id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Liscenses</a>
+                <a href=""  id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Moderation</a>
+                <a href=""  id='mobileLandingatags' style={{marginTop: '10px',color: '#ffffff', fontWeight: 'normal',fontSize: '15px',}}>Company Information</a>
             </div>
         </div>
         <hr style={{ backgroundColor: '#404eed', height: '2px', border: 'none', margin: '40px 0px' }} />;
@@ -237,6 +237,7 @@ export default function MobileLanding() {
                 borderRadius: '20px',
                 color: '#ffffff',
                 fontSize: '15px',
+                cursor: 'pointer',
             }}>
                 Signup
             </button>

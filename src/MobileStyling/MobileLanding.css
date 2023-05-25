@@ -3,3 +3,9 @@
     width: 150px;
     padding: 5px;
 }
+#mobileLandingatags {
+    text-decoration: none;
+}
+#mobileLandingatags:hover {
+    text-decoration: underline;
+}
